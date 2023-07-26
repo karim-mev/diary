@@ -27,7 +27,7 @@ export default async function Index() {
       ) : (
         <h2 className="font-bold text-lg">Login to send a message</h2>
       )}
-      <div className="text-white border-t-2 border-b-2 h-[80vh] overflow-y-scroll w-1/2 my-4 relative">
+      <div className="text-white border-t-2 border-b-2 h-[80vh] overflow-y-scroll p-2 sm:p-0 sm:w-1/2 my-4 relative">
         {messages?.map((msg) => (
           <div key={msg.id} className="flex items-start my-2">
             <h3>

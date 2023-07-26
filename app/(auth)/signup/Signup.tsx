@@ -32,7 +32,7 @@ export default function page() {
   return (
     <>
       <form
-        className="flex flex-col gap-2 text-white w-1/6 my-10"
+        className="flex flex-col gap-2 text-white sm:w-1/6 w-2/3 my-10"
         onSubmit={handleSubmit(handleSignUp)}
       >
         <Input type="email" placeholder="Email" {...register("email")} />
