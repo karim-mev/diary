@@ -22,10 +22,10 @@ export default async function Navbar() {
             </div>
           ) : (
             <Link
-              href="/login"
+              href="/signup"
               className="py-2 px-4 rounded-md no-underline bg-white text-black hover:bg-btn-background-hover"
             >
-              Login
+              SignUp
             </Link>
           )}
         </div>
